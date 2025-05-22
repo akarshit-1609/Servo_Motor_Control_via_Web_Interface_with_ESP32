@@ -106,7 +106,7 @@ https://github.com/user-attachments/assets/8600a84c-28e9-4240-9308-aaa8311d9b51
 
 ## Notes
 
-- Adjust `servoPin` if you connect the servo to a different GPIO.
+- Adjust `servo_pin` if you connect the servo to a different GPIO.
 - Ensure your servo power supply can handle the current draw.
 - You can expand the web interface for additional features.
 
