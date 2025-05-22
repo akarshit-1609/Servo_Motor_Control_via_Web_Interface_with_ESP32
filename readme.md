@@ -96,6 +96,11 @@ Once the code is uploaded, connect any device with esp32 wifi by ssid and passwo
 - The web page will display a slider input to set the servo angle (0-180 degrees).
 - Adjust the slider to move the servo to the desired position.
 
+---
+
+## Demo
+
+https://github.com/user-attachments/assets/8600a84c-28e9-4240-9308-aaa8311d9b51
 
 ---
 
