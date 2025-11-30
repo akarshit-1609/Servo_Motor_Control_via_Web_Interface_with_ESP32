@@ -102,6 +102,8 @@ Once the code is uploaded, connect any device with esp32 wifi by ssid and passwo
 
 https://github.com/user-attachments/assets/8600a84c-28e9-4240-9308-aaa8311d9b51
 
+[![Watch on YouTube](https://img.shields.io/badge/-Watch%20on%20YouTube-red?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=g93rKW7wVLE?si=uKAgFgjjUBQidG4V)
+
 ---
 
 ## Notes
