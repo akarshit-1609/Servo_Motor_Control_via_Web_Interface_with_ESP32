@@ -123,3 +123,9 @@ https://github.com/user-attachments/assets/8600a84c-28e9-4240-9308-aaa8311d9b51
 ---
 
 Enjoy controlling your servo motor via a simple web interface!
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
