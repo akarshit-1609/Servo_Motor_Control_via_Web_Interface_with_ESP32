@@ -1,0 +1,61 @@
+html, body {
+    overflow: hidden;
+    overscroll-behavior: none;
+    background-color: #000;
+    height: 100%;
+}
+
+::backdrop {
+    background-color: #000;
+}
+
+#rotate-image {
+    position: absolute;
+    top: 12.5%;
+    left: 0%;
+    height: 25%;
+    width: 100%;
+    transition: transform 0.1s;
+}
+
+#range {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+    background-size: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+    height: 15px;
+    width: 80%;
+    opacity: 0.7;
+    top: 50%;
+    left: 10%;
+}
+
+#range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #00f;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#output {
+    position: absolute;
+    color: #fff;
+    top: 60%;
+    left: 40%;
+}
+
+#rf {
+    position: absolute;
+    top: 90%;
+    left: 47%;
+    background-color: green;
+    width: 6%;
+    height: 1%;
+    margin: 2% auto;
+}

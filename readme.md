@@ -80,7 +80,18 @@ Before uploading the code to your ESP32, you need to configure some variables, p
 
 *   Connect your ESP32 board to your computer via USB.
 *   In PlatformIO, click the "Build" button to compile the project.
-*   Click the "Upload" button to upload the compiled code to your ESP32.
+*   Upload the web files (LittleFS):
+    - In PlatformIO, open **Project Tasks → Platform → Upload Filesystem Image** or run:
+
+        ```bash
+        pio run --target uploadfs
+        ```
+
+*   Click **Upload** in PlatformIO or run:
+
+    ```bash
+    pio run --target upload
+    ```
 
 ---
 
@@ -89,7 +100,16 @@ Before uploading the code to your ESP32, you need to configure some variables, p
 
 Once the code is uploaded, connect any device with esp32 wifi by ssid and password given in the code after open the browser and Go to url http://192.168.0.1 and change the slider range to move the servo.
 
+---
 
+## Project Structure
+
+*   `platformio.ini`: PlatformIO configuration file.
+*   `src/main.cpp`: The main source code file containing the Servo motor control logic.
+*   `lib/`: (Optional) Directory for external libraries.
+*   `data/`: Stores all webpage files (HTML, CSS, JavaScript, images, etc.) used by the ESP32 web server.
+
+---
 
 ## Usage
 
@@ -103,6 +123,12 @@ Once the code is uploaded, connect any device with esp32 wifi by ssid and passwo
 https://github.com/user-attachments/assets/8600a84c-28e9-4240-9308-aaa8311d9b51
 
 [![Watch on YouTube](https://img.shields.io/badge/-Watch%20on%20YouTube-red?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=g93rKW7wVLE?si=uKAgFgjjUBQidG4V)
+
+---
+
+## Screenshot of web interface
+
+![screenshot](screenshot.png)
 
 ---
 
